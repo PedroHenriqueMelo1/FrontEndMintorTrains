@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.box{
+    width: 719px;
+    height: 542px;
+    border-radius: 8px;
+}
+
+  
+
+.rightside, .leftside {
+    height: 100%; /* Isso garante que ambas as divs ocupem a altura total da box */
+    width: 50%; /* Configura a largura para 50% */
+    float: left; /* Use float para que as divs fiquem ao lado uma da outra */
+    box-sizing: border-box; /* Inclua padding e borda na largura total */
+    margin: 0; /* Remova a margem padrão para garantir que as divs se ajustem corretamente */
+  }
+
+  img{
+    height: 100%;
+    max-width: 100%;
+  }
+
+  .leftside{
+    background-color: rgba(255, 255, 255, 0.74);
+  }
+
+  .h23{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 15px;
+    color: rgb(125, 125, 125);
+    font-style: italic;
+  }
+
+  .cair{
+    margin-left: 40px;
+    font-size: 35px;
+    font-style: inherit;
+    line-height: 30px;
+  }
+
+  p{
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Fraunces', serif;
+    color: rgb(125, 125, 125);
+  }
+
+.bottom{
+width: 100%;
+height: 39%;
+
+display: flex;
+
+
+}
+
+.valororiginal{
+    text-decoration: line-through;
+    margin-left: 23px;
+    margin-top: 24px;
+    color: rgb(125, 125, 125);
+    padding: 0;
+    height: 0px;
+}
+
+.novovalor{
+    font-size: 38px;
+    margin-left: 39px;
+    margin-top: 10px;
+ color: rgb(18, 140, 54);
+ font-family: 'Kameron', serif;
+ padding: 0;
+
+}
+
+button{
+    border: none;
+    height: 60px;
+    width: 280px;
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 40px;
+    border-radius: 8px;
+   background-color:rgb(24, 112, 50);
+color: white;
+font-size: 18px;
+cursor: pointer;
+}
